@@ -1,30 +1,18 @@
-Spider
-==========
+# Spider lib
+
++ Node.js Spider
++ use Nightmare download page, Can crawl dynamic web pages
++ use Async start multi-worker to download pages
++ use Cheerio parse html
 
 
-Usage
-======
+## Usage
 
-install
-======
 
-With [npm](http://npmjs.org) do:
+> $ node [spider file]
 
-```
-npm install spider
-```
 
-test
-====
+## license
 
-With [npm](http://npmjs.org) do:
 
-```
-npm test
-```
-
-license
-=======
 Copyright (c) 2016 Galaxyobe <galaxyobe@qq.com>
-
-Released under the MIT license, see LICENSE for details.

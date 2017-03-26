@@ -3,10 +3,7 @@ var Group = require('../index').Group,
 
 
 var urls = [
-    'http://allegro.pl/listing/listing.php?bmatch=s0-ele-1-4-0629&search_scope=&string=SZKŁO+HARTOWANE',
-    'http://allegro.pl/listing/listing.php?string=SZKŁO+HARTOWANE&bmatch=s0-ele-1-4-0629&p=2',
-    'http://allegro.pl/listing/listing.php?string=SZKŁO+HARTOWANE&bmatch=s0-ele-1-4-0629&p=3',
-    'http://allegro.pl/listing/listing.php?string=SZKŁO+HARTOWANE&bmatch=s0-ele-1-4-0629&p=4'
+    ''
 ];
 
 
@@ -139,6 +136,7 @@ function demo3(name,urls) {
     // demo.restart();
 
     // demo.estart();
+    demo.setMaxOccurs(1);
 
     demo.init();
 }
